@@ -23,6 +23,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <version>2.1.2.RELEASE</version>
+        </dependency>
+        <dependency>
             <groupId>com.wild.shoppmall</groupId>
             <artifactId>shoppmall-common</artifactId>
             <version>1.0-SNAPSHOT</version>
