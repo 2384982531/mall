@@ -7,6 +7,12 @@ spring:
     password: yunhao802351
     url: jdbc:mysql://175.178.111.96:3306/gulimall_oms
     driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 175.178.111.96:8848
+  application:
+    name: shoppmall-order
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
   global-config:
